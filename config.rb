@@ -1,6 +1,7 @@
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+redirect "/", to: "/build/index.html"
 
 # Build-specific configuration
 configure :build do
