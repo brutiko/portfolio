@@ -46,6 +46,7 @@ header {
 .header-content {
   margin: auto;
   width: 85%;
+  max-width: 1600px;
 }
 
 .button-more {
@@ -354,7 +355,8 @@ header {
 .wrapper-content {
   overflow: hidden;
   margin: 0 auto 100px;
-  max-width: 85%;
+  max-width: 1600px;
+  width: 85%;
 }
 
 .wrapper-full {
@@ -925,6 +927,7 @@ header {
 #home-contact {
   margin: auto;
   width: 85%;
+  max-width: 1600px;
 }
 
 #home-about {
@@ -1063,6 +1066,7 @@ footer.wrapper-full {
   margin: 60px auto 20px;
   text-align: right;
   width: 85%;
+  max-width: 1600px;
 }
 
 /* Filter 3 */
@@ -1323,6 +1327,37 @@ footer.wrapper-full {
     -webkit-column-width: 100%;
     -moz-column-width: 100%;
     column-width: 100%;
+  }
+
+  #definition {
+    padding: 80px 0 100px;
+
+    .definition-name {
+      float: none;
+    }
+
+    .definition-box {
+      float: none;
+      display: block;
+    }
+
+    .definition-box .section-description {
+      margin-left: 0;
+    }
+  }
+
+  .projects-thumbs .box {
+    float: none;
+    width: 100%;
+    margin: 0 0 8px 0;
+  }
+
+  #my-posts .posts-wrapper {
+    display: block;
+
+    article {
+      margin: 0 0 60px 0;
+    }
   }
 }
 
