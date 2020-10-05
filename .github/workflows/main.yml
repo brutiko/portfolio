@@ -26,4 +26,3 @@ jobs:
         uses: yurikoval/middleman-gh-pages-action@v1.0.0
         with:
           REMOTE_BRANCH: master
-          SITE_LOCATION: build
