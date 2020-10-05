@@ -24,12 +24,3 @@ jobs:
 
       - name: Middleman Github Pages Action
         uses: yurikoval/middleman-gh-pages-action@v1.0.0
-        with:
-          REMOTE_BRANCH: master
-
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: build
-          path: build
-          if-no-files-found: error
