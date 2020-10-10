@@ -1258,7 +1258,7 @@ footer.wrapper-full {
 /* MEDIA QUERIES */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
 
   #content {
     float: none;
