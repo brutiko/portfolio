@@ -1364,61 +1364,61 @@ footer.wrapper-full {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width : 600px) {
-  #content {
-    float: none;
-    width: 100%;
-    padding-bottom:0px;
-  }
-
-  .related {
-    margin-left: 0;
-    margin-bottom: 30px;
-    width:100%;
-  }
-
-  .principal-menu {
-    width:100%;
-
-    ul {
-      padding-top:42px;
-      margin-bottom:5px;
-    }
-  }
-
-  .content {
-    margin-bottom: 5px;
-    width: 47%;
-
-    &:nth-child(4) {
-      margin-bottom: 100px;
-      width: 100%;
-
-      .box {
-        width: 45%;
-        float: left;
-        margin-right: 3%;
-        padding: 1%;
-      }
-    }
-  }
-
-  .project-content {
-    margin-left: 10px;
-    width: 100%;
-  }
-
-  .related-projects {
-    .box {
-      float: left;
-      padding: 1%;
-      margin: 5px;
-      width: 45%;
-
-      &:first-child {
-        margin-left: 5px;
-      }
-    }
-  }
+  // #content {
+  //   float: none;
+  //   width: 100%;
+  //   padding-bottom:0px;
+  // }
+  //
+  // .related {
+  //   margin-left: 0;
+  //   margin-bottom: 30px;
+  //   width:100%;
+  // }
+  //
+  // .principal-menu {
+  //   width:100%;
+  //
+  //   ul {
+  //     padding-top:42px;
+  //     margin-bottom:5px;
+  //   }
+  // }
+  //
+  // .content {
+  //   margin-bottom: 5px;
+  //   width: 47%;
+  //
+  //   &:nth-child(4) {
+  //     margin-bottom: 100px;
+  //     width: 100%;
+  //
+  //     .box {
+  //       width: 45%;
+  //       float: left;
+  //       margin-right: 3%;
+  //       padding: 1%;
+  //     }
+  //   }
+  // }
+  //
+  // .project-content {
+  //   margin-left: 10px;
+  //   width: 100%;
+  // }
+  //
+  // .related-projects {
+  //   .box {
+  //     float: left;
+  //     padding: 1%;
+  //     margin: 5px;
+  //     width: 45%;
+  //
+  //     &:first-child {
+  //       margin-left: 5px;
+  //     }
+  //   }
+  // }
 
   #portfolio {
     margin: 1rem 0;
