@@ -1451,6 +1451,49 @@ footer.wrapper-full {
     column-width: 33.33333333333333%;
   }
 
+  .projects-thumbs {
+    .box {
+      max-width: 100%;
+      max-height: 100%;
+      position: relative;
+    /*  margin: 4px;*/
+      z-index: 1;
+      float: left;
+      width: 32.93%;
+      margin: 0.2%;
+
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        max-width: 100%;
+        vertical-align: top;
+      }
+
+      h1 {
+       color: #333;
+       font-family: 'Roboto', Arial, sans-serif;
+       font-size: 0.75em;
+       font-weight: 600;
+       text-decoration: none;
+       word-break: hyphenate;
+      }
+
+      p {
+        color: #666;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 0.74em;
+        line-height: 1.25em;
+        word-break: hyphenate;
+      }
+
+      &:hover .box-hover {
+        display: block;
+      }
+    }
+  }
+
 }
 
 
