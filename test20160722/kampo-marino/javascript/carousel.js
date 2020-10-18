@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#quote-carousel").carousel({pause:!0,interval:4e3})});
